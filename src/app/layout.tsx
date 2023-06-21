@@ -4,12 +4,6 @@ import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import './globals.css';
 
-/*export const metadata = {
-    title: 'Flotas App',
-    description: 'Viajes',
-    keywords: "viaje,flota,online",
-}*/
-
 export default function RootLayout({
     children,
 }: {

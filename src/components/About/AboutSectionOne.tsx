@@ -8,14 +8,14 @@ const checkIcon = (
 );
 
 const AboutSectionOne = () => {
-  const List = ({ text }) => (
+  /*const List = ({ text }) => (
     <p className="mb-5 flex items-center text-lg font-medium text-body-color">
       <span className="mr-4 flex h-[30px] w-[30px] items-center justify-center rounded-md bg-primary bg-opacity-10 text-primary">
         {checkIcon}
       </span>
       {text}
     </p>
-  );
+  );*/
 
   return (
     <section id="about" className="pt-16 md:pt-20 lg:pt-28">
@@ -33,7 +33,7 @@ const AboutSectionOne = () => {
                 className="wow fadeInUp mb-12 max-w-[570px] lg:mb-0"
                 data-wow-delay=".15s"
               >
-                <div className="mx-[-12px] flex flex-wrap">
+                {/* <div className="mx-[-12px] flex flex-wrap">
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
                     <List text="Premium quality" />
                     <List text="Tailwind CSS" />
@@ -44,28 +44,28 @@ const AboutSectionOne = () => {
                     <List text="Next.js" />
                     <List text="Rich documentation" />
                     <List text="Developer friendly" />
-                  </div>
-                </div>
+                  </div>*/}
               </div>
             </div>
+          </div>
 
-            <div className="w-full px-4 lg:w-1/2">
-              <div
-                className="wow fadeInUp relative mx-auto aspect-[25/24] max-w-[500px] lg:mr-0"
-                data-wow-delay=".2s"
-              >
-                <Image
-                  src="/images/about/about-image.svg"
-                  alt="about-image"
-                  fill
-                  className="mx-auto max-w-full lg:mr-0"
-                />
-              </div>
+          <div className="w-full px-4 lg:w-1/2">
+            <div
+              className="wow fadeInUp relative mx-auto aspect-[25/24] max-w-[500px] lg:mr-0"
+              data-wow-delay=".2s"
+            >
+              <Image
+                src="/images/about/about-image.svg"
+                alt="about-image"
+                fill
+                className="mx-auto max-w-full lg:mr-0"
+              />
             </div>
           </div>
         </div>
       </div>
-    </section>
+
+    </section >
   );
 };
 
