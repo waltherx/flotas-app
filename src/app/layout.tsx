@@ -1,4 +1,7 @@
-import Navigation from "@/components/Navigation/Navigation";
+"use client";
+
+import Footer from "@/components/Footer";
+import Header from "@/components/Header";
 import './globals.css';
 
 export const metadata = {
@@ -13,20 +16,17 @@ export default function RootLayout({
     children: React.ReactNode
 }) {
     return (
-        <html lang="es">
-            <head>
-
-            </head>
-            <body>
-                <div >
-                    <aside className={"md:w-4/12 xl:w-1/4 2xl:w-1/5"}>
-                        <Navigation/>
-                    </aside>
-                    <main className={"bg-slate-400 md:w-8/12 xl:w3/4 2xl:w-4/5"}>
-                        {children}
-                    </main>
-                </div>
+        <html suppressHydrationWarning lang="es">
+            <head/>
+            <body className="dark:bg-black">
+                <Providers>
+                    <Header />
+                    {children}
+                    <Footer />
+                </Providers>
             </body>
         </html>
-    )
+    );
 }
+
+import { Providers } from "./providers";
