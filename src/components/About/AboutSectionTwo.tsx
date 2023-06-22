@@ -29,7 +29,7 @@ const AboutSectionTwo = () => {
               </div>
               <div className="mb-9">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Premier support
+                  Personal
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
                 Contamos con personal altamente capacitado, el parque automotor de buses y camiones mas moderno del país, seguimiento por GPS y una vasta experiencia que asegurarán el buen manejo de su carga y cubrirán todas sus necesidades..
@@ -37,7 +37,7 @@ const AboutSectionTwo = () => {
               </div>
               <div className="mb-1">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                SERVICIOS A MEDIDA
+                Servicios a Medida
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
                 Diseñamos soluciones de logística que se adaptan a las necesidades específicas suyas y a las de su negocio.
