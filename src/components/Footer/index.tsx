@@ -21,7 +21,7 @@ const Footer = () => {
                     height={30}
                   />
                   <Image
-                    src="vercel.svg"
+                    src="/logo2.webp"
                     alt="logo"
                     className="hidden w-full dark:block"
                     width={140}

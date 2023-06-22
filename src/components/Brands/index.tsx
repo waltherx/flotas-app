@@ -4,33 +4,33 @@ import Image from "next/image";
 const brandsData: Brand[] = [
   {
     id: 1,
-    name: "UIdeck",
-    href: "https://uideck.com",
-    image: "/images/brands/uideck.svg",
+    name: "Cochabamba",
+    href: "#",
+    image: "/destino/cbba.jpg",
   },
   {
     id: 2,
-    name: "Tailgrids",
-    href: "https://tailgrids.com",
-    image: "/images/brands/tailgrids.svg",
+    name: "La Paz",
+    href: "#",
+    image: "/destino/lpz.jpg",
   },
   {
     id: 3,
-    name: "Lineicons",
-    href: "https://lineicons.com",
-    image: "/images/brands/lineicons.svg",
+    name: "Santa Cruz",
+    href: "#",
+    image: "/destino/scz.jpg",
   },
   {
     id: 4,
-    name: "GrayGrids",
-    href: "https://graygrids.com",
-    image: "/images/brands/graygrids.svg",
+    name: "Sucre",
+    href: "#",
+    image: "/destino/sucre.jpg",
   },
   {
     id: 5,
-    name: "TailAdmin",
-    href: "https://tailadmin.com",
-    image: "/images/brands/tailadmin.svg",
+    name: "Copacabana",
+    href: "#",
+    image: "/destino/copac.jpg",
   },
 ];
 
@@ -67,7 +67,7 @@ const SingleBrand = ({ brand }: { brand: Brand }) => {
         href={href}
         target="_blank"
         rel="nofollow noreferrer"
-        className="relative h-10 w-full opacity-70 grayscale transition hover:opacity-100 hover:grayscale-0 dark:opacity-60 dark:hover:opacity-100"
+        className="relative h-40 w-full transition hover:opacity-100 hover:grayscale-0 dark:opacity-60 dark:hover:opacity-100"
       >
         <Image src={image} alt={name} fill />
       </a>

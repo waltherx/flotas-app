@@ -59,7 +59,7 @@ const Header = () => {
                   className="w-full dark:hidden"
                 />
                 <Image
-                  src="/vercel.svg"
+                  src="/logo2.webp"
                   alt="logo"
                   width={140}
                   height={30}
@@ -131,7 +131,7 @@ const Header = () => {
               <div className="flex items-center justify-end pr-16 lg:pr-0">
                 <Link
                   href="/signin"
-                  className="hidden py-3 px-7 text-base font-bold text-dark hover:opacity-70 dark:text-white md:block"
+                  className="py-3 px-7 text-base font-bold text-dark hover:opacity-70 dark:text-white md:block" //hidden
                 >
                   Iniciar sesión
                 </Link>

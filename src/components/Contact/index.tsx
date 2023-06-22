@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <section id="contact" className="overflow-hidden py-16 md:py-20 lg:py-28">
       <div className="container">
-        <div className="-mx-4 flex content-center">
+        <div className="-mx-4 flex flex-wrap  ">
           <div className="w-full px-4 lg:w-7/12 xl:w-8/12">
             <div
               className="wow fadeInUp mb-12 rounded-md bg-primary/[3%] py-11 px-8 dark:bg-dark sm:p-[55px] lg:mb-5 lg:px-8 xl:p-[55px]"

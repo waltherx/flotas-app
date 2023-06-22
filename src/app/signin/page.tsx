@@ -9,11 +9,11 @@ const SigninPage = () => {
             <div className="w-full px-4">
               <div className="mx-auto max-w-[500px] rounded-md bg-primary bg-opacity-5 py-10 px-6 dark:bg-dark sm:p-[60px]">
                 <h3 className="mb-3 text-center text-2xl font-bold text-black dark:text-white sm:text-3xl">
-                  Sign in to your account
+                  Inicia sesión
                 </h3>
-                <p className="mb-11 text-center text-base font-medium text-body-color">
+                {/*<p className="mb-11 text-center text-base font-medium text-body-color">
                   Login to your account for a faster checkout.
-                </p>
+                </p>*/}
                 <button className="mb-6 flex w-full items-center justify-center rounded-md bg-white p-3 text-base font-medium text-body-color shadow-one hover:text-primary dark:bg-[#242B51] dark:text-body-color dark:shadow-signUp dark:hover:text-white">
                   <span className="mr-3">
                     <svg
@@ -48,12 +48,12 @@ const SigninPage = () => {
                       </defs>
                     </svg>
                   </span>
-                  Sign in with Google
+                  Ingresa con Google
                 </button>
                 <div className="mb-8 flex items-center justify-center">
                   <span className="hidden h-[1px] w-full max-w-[70px] bg-body-color sm:block"></span>
                   <p className="w-full px-5 text-center text-base font-medium text-body-color">
-                    Or, sign in with your email
+                    O usa tu correo electrónico
                   </p>
                   <span className="hidden h-[1px] w-full max-w-[70px] bg-body-color sm:block"></span>
                 </div>
@@ -63,12 +63,12 @@ const SigninPage = () => {
                       htmlFor="email"
                       className="mb-3 block text-sm font-medium text-dark dark:text-white"
                     >
-                      Your Email
+                      Correo electrónico
                     </label>
                     <input
                       type="email"
                       name="email"
-                      placeholder="Enter your Email"
+                      placeholder="Escribe tu correo electrónico"
                       className="w-full rounded-md border border-transparent py-3 px-6 text-base text-body-color placeholder-body-color shadow-one outline-none focus:border-primary focus-visible:shadow-none dark:bg-[#242B51] dark:shadow-signUp"
                     />
                   </div>
@@ -77,18 +77,18 @@ const SigninPage = () => {
                       htmlFor="password"
                       className="mb-3 block text-sm font-medium text-dark dark:text-white"
                     >
-                      Your Password
+                      Contraseña
                     </label>
                     <input
                       type="password"
                       name="password"
-                      placeholder="Enter your Password"
+                      placeholder="Escribe tu contraseña"
                       className="w-full rounded-md border border-transparent py-3 px-6 text-base text-body-color placeholder-body-color shadow-one outline-none focus:border-primary focus-visible:shadow-none dark:bg-[#242B51] dark:shadow-signUp"
                     />
                   </div>
                   <div className="mb-8 flex flex-col justify-between sm:flex-row sm:items-center">
                     <div className="mb-4 sm:mb-0">
-                      <label
+                      {/*<label
                         htmlFor="checkboxLabel"
                         className="flex cursor-pointer select-none items-center text-sm font-medium text-body-color"
                       >
@@ -118,27 +118,27 @@ const SigninPage = () => {
                           </div>
                         </div>
                         Keep me signed in
-                      </label>
+                      </label>*/}
                     </div>
                     <div>
                       <a
                         href="#0"
                         className="text-sm font-medium text-primary hover:underline"
                       >
-                        Forgot Password?
+                        Olvidé mi contraseña
                       </a>
                     </div>
                   </div>
                   <div className="mb-6">
                     <button className="flex w-full items-center justify-center rounded-md bg-primary py-4 px-9 text-base font-medium text-white transition duration-300 ease-in-out hover:bg-opacity-80 hover:shadow-signUp">
-                      Sign in
+                      Iniciar sesion
                     </button>
                   </div>
                 </form>
                 <p className="text-center text-base font-medium text-body-color">
-                  Don’t you have an account?
+                  ¿No tienes cuenta?
                   <Link href="/signup" className="text-primary hover:underline">
-                    Sign up
+                     Registrate
                   </Link>
                 </p>
               </div>

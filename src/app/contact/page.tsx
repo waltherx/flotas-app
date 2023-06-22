@@ -4,10 +4,10 @@ import Contact from '@/components/Contact';
 const page = () => {
     return (
         <div>
-            <Breadcrumb
+            {/*<Breadcrumb
                 pageName="Contacto"
                 description="Fenomenos"
-            />
+            />*/}
             <Contact />
         </div>
     );

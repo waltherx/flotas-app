@@ -2,6 +2,7 @@ import SectionTitle from "../Common/SectionTitle";
 import SingleFeature from "./SingleFeature";
 import featuresData from "./featuresData";
 
+
 const Features = () => {
   return (
     <>
@@ -11,8 +12,8 @@ const Features = () => {
       >
         <div className="container">
           <SectionTitle
-            title="Main Features"
-            paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+            title="Nuestros Buses"
+            paragraph="Línea Sindical de Transportes El Dorado cuenta con buses de última generación para ofrecer a sus clientes una experiencia de viaje única; modernas unidades doble piso Suit Cama y Bus Cama para transportarlo con los más altos estándares de seguridad y confort."
             center
           />
 

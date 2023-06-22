@@ -11,9 +11,9 @@ const SignupPage = () => {
                 <h3 className="mb-3 text-center text-2xl font-bold text-black dark:text-white sm:text-3xl">
                   Crea tu cuenta
                 </h3>
-                <p className="mb-11 text-center text-base font-medium text-body-color">
+                {/*<p className="mb-11 text-center text-base font-medium text-body-color">
                   It’s totally free and super easy
-                </p>
+                </p>*/}
                 <button className="mb-6 flex w-full items-center justify-center rounded-md bg-white p-3 text-base font-medium text-body-color shadow-one hover:text-primary dark:bg-[#242B51] dark:text-body-color dark:shadow-signUp dark:hover:text-white">
                   <span className="mr-3">
                     <svg
@@ -48,12 +48,12 @@ const SignupPage = () => {
                       </defs>
                     </svg>
                   </span>
-                  Registrate con Gooogle
+                  Registrarme con Gooogle
                 </button>
                 <div className="mb-8 flex items-center justify-center">
                   <span className="hidden h-[1px] w-full max-w-[60px] bg-body-color sm:block"></span>
                   <p className="w-full px-5 text-center text-base font-medium text-body-color">
-                    Or, register with your email
+                    O usa tu correo electrónico
                   </p>
                   <span className="hidden h-[1px] w-full max-w-[60px] bg-body-color sm:block"></span>
                 </div>
@@ -69,7 +69,7 @@ const SignupPage = () => {
                     <input
                       type="text"
                       name="name"
-                      placeholder="Enter your full name"
+                      placeholder="Escribe tu nombre completo"
                       className="w-full rounded-md border border-transparent py-3 px-6 text-base text-body-color placeholder-body-color shadow-one outline-none focus:border-primary focus-visible:shadow-none dark:bg-[#242B51] dark:shadow-signUp"
                     />
                   </div>
@@ -79,12 +79,12 @@ const SignupPage = () => {
                       className="mb-3 block text-sm font-medium text-dark dark:text-white"
                     >
                       {" "}
-                      Tu Correo{" "}
+                      Correo electronico{" "}
                     </label>
                     <input
                       type="email"
                       name="email"
-                      placeholder="Enter your Email"
+                      placeholder="Escribe tu correo electronico"
                       className="w-full rounded-md border border-transparent py-3 px-6 text-base text-body-color placeholder-body-color shadow-one outline-none focus:border-primary focus-visible:shadow-none dark:bg-[#242B51] dark:shadow-signUp"
                     />
                   </div>
@@ -94,12 +94,12 @@ const SignupPage = () => {
                       className="mb-3 block text-sm font-medium text-dark dark:text-white"
                     >
                       {" "}
-                      Tu Contraseña{" "}
+                      Contraseña{" "}
                     </label>
                     <input
                       type="password"
                       name="password"
-                      placeholder="Enter your Password"
+                      placeholder="Escribe tu contraseña"
                       className="w-full rounded-md border border-transparent py-3 px-6 text-base text-body-color placeholder-body-color shadow-one outline-none focus:border-primary focus-visible:shadow-none dark:bg-[#242B51] dark:shadow-signUp"
                     />
                   </div>
@@ -134,29 +134,24 @@ const SignupPage = () => {
                         </div>
                       </div>
                       <span>
-                        By creating account means you agree to the
+                        Acepto los
                         <a href="#0" className="text-primary hover:underline">
                           {" "}
-                          Terms and Conditions{" "}
-                        </a>
-                        , and our
-                        <a href="#0" className="text-primary hover:underline">
-                          {" "}
-                          Privacy Policy{" "}
+                          Términos y condiciones{" "}
                         </a>
                       </span>
                     </label>
                   </div>
                   <div className="mb-6">
                     <button className="flex w-full items-center justify-center rounded-md bg-primary py-4 px-9 text-base font-medium text-white transition duration-300 ease-in-out hover:bg-opacity-80 hover:shadow-signUp">
-                      Sign up
+                      Registrarme
                     </button>
                   </div>
                 </form>
                 <p className="text-center text-base font-medium text-body-color">
-                  Already using Startup?
+                  ¿Ya tienes cuenta?
                   <Link href="/signin" className="text-primary hover:underline">
-                    Sign in
+                    Inicia sesion
                   </Link>
                 </p>
               </div>
