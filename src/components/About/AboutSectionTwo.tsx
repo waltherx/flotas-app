@@ -11,7 +11,7 @@ const AboutSectionTwo = () => {
               data-wow-delay=".15s"
             >
               <Image
-                src="/images/about/about-image-2.svg"
+                src="/carga.webp"
                 alt="about image"
                 fill
               />
@@ -21,11 +21,10 @@ const AboutSectionTwo = () => {
             <div className="wow fadeInUp max-w-[470px]" data-wow-delay=".2s">
               <div className="mb-9">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Bug free code
+                Servicio de Carga y Encomiendas
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Trans Copacabana S.A. ofrece el servicio de Carga & Encomiendas a nivel nacional de forma rápida, segura y llegando a toda Bolivia.
                 </p>
               </div>
               <div className="mb-9">
@@ -33,17 +32,15 @@ const AboutSectionTwo = () => {
                   Premier support
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt.
+                Contamos con personal altamente capacitado, el parque automotor de buses y camiones mas moderno del país, seguimiento por GPS y una vasta experiencia que asegurarán el buen manejo de su carga y cubrirán todas sus necesidades..
                 </p>
               </div>
               <div className="mb-1">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Next.js
+                SERVICIOS A MEDIDA
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Lorem ipsum dolor sit amet, sed do eiusmod tempor incididunt
-                  consectetur adipiscing elit setim.
+                Diseñamos soluciones de logística que se adaptan a las necesidades específicas suyas y a las de su negocio.
                 </p>
               </div>
             </div>

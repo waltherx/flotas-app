@@ -64,7 +64,7 @@ const SignupPage = () => {
                       className="mb-3 block text-sm font-medium text-dark dark:text-white"
                     >
                       {" "}
-                      Full Name{" "}
+                      Nombre Completo{" "}
                     </label>
                     <input
                       type="text"
@@ -79,7 +79,7 @@ const SignupPage = () => {
                       className="mb-3 block text-sm font-medium text-dark dark:text-white"
                     >
                       {" "}
-                      Work Email{" "}
+                      Tu Correo{" "}
                     </label>
                     <input
                       type="email"
@@ -94,7 +94,7 @@ const SignupPage = () => {
                       className="mb-3 block text-sm font-medium text-dark dark:text-white"
                     >
                       {" "}
-                      Your Password{" "}
+                      Tu Contraseña{" "}
                     </label>
                     <input
                       type="password"
