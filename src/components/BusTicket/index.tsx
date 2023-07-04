@@ -1,6 +1,10 @@
 import Link from "next/link";
+import Place from "./Places";
+
+
 
 const BusTicket = () => {
+
   return (
     <>
       <section
@@ -15,15 +19,22 @@ const BusTicket = () => {
                 data-wow-delay=".2s"
               >
                 <h1 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
-                Pasaje
+                  Pasaje
                 </h1>
                 <p className="mb-12 text-base font-medium !leading-relaxed text-body-color dark:text-white dark:opacity-90 sm:text-lg md:text-xl">
-                Escoja el servicio de su preferencia.
+                  Por favor, seleccione su origen y destino para proceder con la compra del pasaje.
                 </p>
                 <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
-                  
-                  --
+                  <Place placeholderProp="Seleccione Origen" />
+                  <Place placeholderProp="Seleccione Destino" />
+                  <input type="date"
+                    placeholder="Ingresar fecha"
+                    className="w-full rounded-md border border-transparent py-3 px-6 text-base text-body-color placeholder-body-color shadow-one outline-none focus:border-primary focus-visible:shadow-none dark:bg-[#242B51] dark:shadow-signUp"
+                  />
+                </div>
 
+                <div className="rounded-md bg-primary my-4 py-4 px-9 text-base font-medium text-white transition duration-300 ease-in-out hover:bg-opacity-80 hover:shadow-signUp">
+                  <Link href={"/rute"}>Buscar</Link>
                 </div>
               </div>
             </div>
