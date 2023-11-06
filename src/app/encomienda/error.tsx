@@ -1,16 +1,15 @@
-'use client'
+"use client";
 
-import { useEffect } from 'react'
+import { useEffect } from "react";
 
 export default function Error({
   error,
   reset,
 }: {
-  error: Error
-  reset: () => void
+  error: Error;
+  reset: () => void;
 }) {
-  useEffect(() => {
-  }, [error])
+  useEffect(() => {}, [error]);
 
   return (
     <section
@@ -25,17 +24,11 @@ export default function Error({
               data-wow-delay=".2s"
             >
               <h2>{error.message}</h2>
-              <button
-                onClick={
-                  () => reset()
-                }
-              >
-               Volver
-              </button>
+              <button onClick={() => reset()}>Volver</button>
             </div>
           </div>
         </div>
       </div>
-    </section >
-  )
+    </section>
+  );
 }

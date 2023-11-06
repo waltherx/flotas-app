@@ -1,14 +1,11 @@
-import axios from 'axios';
+import axios from "axios";
 
-const API_BASE_URL = process.env.API_BASE_URL;
-
-export const api = axios.create({
-    baseURL: API_BASE_URL,
-    headers: {
-        'Content-Type': 'application/json',
-        //'Accept-Encoding': 'gzip,deflate,compress',
-    },
+const BASE_URL = process.env.NEXT_PUBLIC_SERVER_URL;
+const api = axios.create({
+  baseURL: BASE_URL,
 });
 
-export const fetcher = (url: string) => api.get(url).then((res) => res.data);
+/*axios.defaults.headers.common["Access-Control-Allow-Origin"] = "*";
+axios.defaults.headers.common["Access-Control-Allow-Headers"] = "*";*/
 
+export default api;

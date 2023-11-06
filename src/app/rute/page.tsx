@@ -1,5 +1,4 @@
-import { GetServerSideProps } from 'next';
-import { Dot } from '@/components/SteepForm/Dot'
+import { Dot } from '@/components/SteepForm/Dot';
 
 const page = () => {
 
