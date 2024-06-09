@@ -12,7 +12,7 @@ export default function NotFound() {
                 <NotFoundAnimate />
                 <h3 className="mb-3 text-center text-2xl font-bold text-black dark:text-white sm:text-3xl">
                   <h1>No encontrado </h1>
-                  <p>Erikita bella </p>
+                  <p>😥</p>
                 </h3>
 
                 <p className="text-center text-base font-medium text-body-color">
